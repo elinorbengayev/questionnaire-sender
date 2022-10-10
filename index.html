@@ -36,19 +36,20 @@
                         <label for="inputPatientEmail"></label>
                         <input type="text" class="form-control" id="inputPatientEmail" placeholder="patient@example.com">
                     </div>
+                </div>
             </div>
-        </div>
+            <div class="row p-2">
+                <div class="col-md-12 text-center" id="submitDiv">
+                    <button id="submitButton" type="button" class="btn btn-primary">
+                        Submit
+                        <span id="loadingSpinner" class="spinner-border spinner-border-sm" hidden></span>
+                    </button>
+                </div>
+            </div>
     </div>
 
     </div>
-    <div class="row p-2">
-        <div class="col-md-12 text-center" id="submitDiv">
-            <button id="submitButton" type="button" class="btn btn-primary">
-                Submit
-                <span id="loadingSpinner" class="spinner-border spinner-border-sm" hidden></span>
-            </button>
-        </div>
-    </div>
+
 </div>
 
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
